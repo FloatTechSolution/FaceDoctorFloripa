@@ -54,7 +54,16 @@
   margin-bottom: 1rem;
   color: var(--text-light);
 }
-
+.room__container {
+    
+    margin: auto;
+    padding: 5rem 1rem;
+  
+  
+}
+.titleResultado {
+  margin-left: 10rem;
+}
 .btn {
   padding: 0.75rem 1.5rem;
   outline: none;
@@ -291,12 +300,15 @@ nav {
   margin-top: 4rem;
   display: grid;
   gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
 }
 
 .room__card {
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
 }
 
 .room__card__image {
@@ -700,6 +712,9 @@ nav {
   .room__grid {
     grid-template-columns: repeat(1, 1fr);
   }
+  .room__card {
+    max-width: 400px;
+  }
 
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
@@ -716,6 +731,9 @@ nav {
   }
   .booking__container {
     height: 200px;
+  }
+  .titleResultado {
+    margin-left: 10px;
   }
   
 }
@@ -771,9 +789,11 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
   }
-
-  .room__grid {
-    grid-template-columns: repeat(3, 1fr);
+  .room__container {
+   padding: 60px;
+  }
+  .room__card {
+    max-width: 400px;
   }
 
   .service__content {
@@ -788,6 +808,7 @@ nav {
 @media (width > 1024px) {
   .room__grid {
     gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
