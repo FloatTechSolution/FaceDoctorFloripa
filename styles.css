@@ -613,9 +613,7 @@ nav {
   display: grid;
   gap: 4rem 2rem;
 }
-#number {
-  color: #ffffff;
-}
+
 .footer__col .section__description {
   margin-block: 2rem;
 }
@@ -642,6 +640,11 @@ nav {
   gap: 10px;
   text-shadow: 0px 0px 10px black;
   color: #ffffff;
+  
+}
+#number {
+  color: #ffffff;
+  
 }
 .footer__links a:hover {
   color: #d06d68;
