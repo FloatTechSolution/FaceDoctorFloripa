@@ -613,7 +613,9 @@ nav {
   display: grid;
   gap: 4rem 2rem;
 }
-
+#number {
+  color: #ffffff;
+}
 .footer__col .section__description {
   margin-block: 2rem;
 }
@@ -688,7 +690,7 @@ nav {
   filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.521));
 }
 
-@media (width < 325px) {
+@media (width < 380px) {
 
   .booking__container {
     height: 300px;
@@ -736,6 +738,10 @@ nav {
   .exploreInformations {
     padding: 10px;
   }
+  .room__container {
+    padding: 0rem 1rem;
+  }
+
 }
 
 @media (width < 765px) {
