@@ -630,15 +630,16 @@ nav {
   gap: 1rem;
 }
 
-.footer__links li {
+/* .footer__links li {
   color: #fff;
   transition: 0.3s;
   padding: 15px;
-}
+} */
 .footerLinks {
   display: flex;
   gap: 10px;
   text-shadow: 0px 0px 10px black;
+  color: #ffffff;
 }
 .footer__links a:hover {
   color: #d06d68;
@@ -688,23 +689,52 @@ nav {
 }
 
 @media (width < 325px) {
-  body {
-    width: 121vw;
-  }
+
   .booking__container {
     height: 300px;
   }
   .about__container {
    margin-top: 150px;
   }
+  .explore__content {
+    width: 300px;
+  }
+  .smartphone {
+    width: 270px;
+  }
+  .smartphone iframe {
+    width: 270px;
+  }
+  
 }
 
-@media (width < 410px) {
-  body {
-    width: 121vw;
-  }
+@media (width < 426px) {
   .booking__container {
     height: 200px;
+  }
+  .explore__content {
+    width: 300px;
+  }
+  .smartphone {
+    width: 250px;
+  }
+  .smartphone iframe {
+    width: 250px;
+  }
+  .header__container h1 {
+    font-size: 3rem;
+  }
+  .section__header {
+    font-size: 2rem;
+  }
+  .booking__container {
+    margin-top: 100px;
+  }
+  .section__header {
+    font-size: 1.5rem;
+  }
+  .exploreInformations {
+    padding: 10px;
   }
 }
 
